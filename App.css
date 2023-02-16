@@ -74,10 +74,12 @@
   width: 100%;
 }
 
+/*--------------- Second ------------------------------------------------------*/
+
 .sec-sect{
   margin-top: -4px;
   position: relative;
-  height: 120vh;
+  height: 140vh;
   width: 100%;
   background-color: #e9c56d;
 }
@@ -90,7 +92,7 @@
   font-size: 33px;
   line-height: 150%;
   margin-left: 170px;
-  margin-top: 220px;
+  margin-top: 205px;
   color: #262626;
 
   flex: none;
@@ -98,8 +100,6 @@ order: 0;
 flex-grow: 0;
 
 }
-
-
 
 .sec-2text{
   position: absolute;
@@ -110,7 +110,7 @@ font-size: 24px;
 line-height: 120%;
 color: #262626;
   margin-left: 170px;
-  margin-top: 250px;
+  margin-top: 235px;
 
 width: 500px;
 overflow-wrap: break-word;
@@ -131,7 +131,7 @@ font-size: 18px;
 line-height: 120%;
 color: #262626;
   margin-left: 170px;
-  margin-top: 270px;
+  margin-top: 255px;
 
   width: 500px;
 overflow-wrap: break-word;
@@ -148,7 +148,119 @@ flex-grow: 0;
   height: 560px;
   width: 590px;
   float: right;
-  margin-top: 80px;
+  margin-top: 65px;
   margin-right: 75px;
+}
+
+.sec-icons-div{
+  position: absolute;
+  margin-top: 275px;
+  margin-left: 170px;
+ 
+}
+.sec-icon{
+  height: 75px;
+  width: 75px;
+  margin-right: 50px;
+}
+
+.sec-last-img{
+  height: 260px;
+  width: 240px;
+  margin-right: 50px;
+}
+
+/*--------------- Third ------------------------------------------------------*/
+
+.third-sect{
+  position: relative;
+  margin-top: 150px;
+  margin-left: 230px;
+}
+
+.third-text1{
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+}
+
+.third-text2{
+  font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+margin-top: 8px;
+}
+
+.third-text3{
+  font-family: 'Gill Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+margin-top: -60px;
+
+width: 300px;
+overflow-wrap: break-word;
+word-wrap: break-word;
+word-break: break-word;
+}
+
+.third-img{
+  height: 75px;
+  z-index: 3;
+  width: auto;
+  margin-right: 7px;
+}
+
+.third-text4{
+  margin-top: 15px;
+  font-size: 14px;
+  z-index: 3;
+width: 250px;
+overflow-wrap: break-word;
+word-wrap: break-word;
+word-break: break-word;
+}
+
+.third-border{
+  display: flex;
+  z-index: 2;
+  border: 1px solid #D1D1D1;
+  border-width:"thin";
+  margin-right: 40px;
+  padding: 12px 0 10px 18px;
+}
+
+.third-number{
+  position: absolute;
+  margin-top: -40px;
+  z-index: 1;
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 150%;
+
+color: rgba(0, 0, 0, 0.2);
+}
+
+
+/*--------------- Fourth ------------------------------------------------------*/
+.fourth-sec{
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 40%;
+}
+
+.fourth-text{
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
 
 }

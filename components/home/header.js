@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import LocalMallIcon from '@mui/icons-material/LocalMall';
-import logo from  '../../assets/images/logo.png';
+import logo from  '../../assets/images/logos.png';
 import red from '../../assets/images/red.png';
 
 
@@ -47,7 +47,7 @@ function ResponsivenavBar() {
 
           <Box sx={{flexGrow: 1,textAlign:"center",display: { xs: 'none', md: 'flex' } }}>
        
-          <img className='image1'  style={{margin:"auto 251px auto 150px", height:"44px", width:"42px", backgroundColor:"red" }} src={logo}/>
+          <img className='image1'  style={{margin:"auto 251px auto 150px", height:"50px", width:"48px"}} src={logo}/>
           {/* <img className='image2' style={{margin:"auto 101px auto -100px", height:"44px", width:"42px" }} src={red}/>  */}
    
             {pages.map((page) => (

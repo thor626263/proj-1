@@ -6,6 +6,14 @@ import a from '../../assets/images/a.png';
 import b from '../../assets/images/b.png';
 import c from '../../assets/images/c.png';
 import d from '../../assets/images/b.png';
+import line from '../../assets/images/line.png';
+import circle from '../../assets/images/circle.png';
+import r1 from '../../assets/images/r1.png';
+import r2 from '../../assets/images/r2.png';
+import r3 from '../../assets/images/r3.png';
+import r4 from '../../assets/images/r4.png';
+import r5 from '../../assets/images/r5.png';
+
 
 function First(){
     return(
@@ -40,12 +48,29 @@ laudantium, totam rem aperiam, eaque ipsa quae ab
     </p>
     </div>
 </div>
-<div>
-    {/* <img src={a} alt='a'/>
-    <img src={b} alt='a'/>
-    <img src={c} alt='a'/>
-    <img src={d} alt='a'/> */}
+<div className="sec-icons-div">
+    <img className="sec-icon" src={a} alt='a'/>
+    <img className="sec-icon" src={b} alt='b'/>
+    <img className="sec-icon" src={c} alt='c'/>
+    <img className="sec-icon" src={d} alt='d'/>
 </div>
+<div style={{marginLeft:"170px", marginTop:"395px", position:"relative"}}>
+    <p style={{marginBottom:"-57px",position:"absolute"}} >Get to know us more</p>
+    <img style={{position:"absolute",marginTop:"20px", marginBottom:"0px", width:"180px"}} src={line} alt='line'/>
+    <img style={{position:"absolute",marginLeft:"152px", marginTop:"-5px", height:"50px"}} src={circle} alt='circle'/>
+    </div>
+    <div style={{position:"absolute", marginTop:"150px", marginLeft:"120px"}}>
+        <img className="sec-last-img" src={r1} alt="r1"/>
+        <img className="sec-last-img" src={r2} alt="r2"/>
+        <img className="sec-last-img" src={r3} alt="r3"/>
+        <img className="sec-last-img" src={r4} alt="r4"/>
+    </div>
+    <div style={{position:"absolute", marginTop:"160px", marginLeft:"125px" , zIndex:"-1"}}>
+        <img className="sec-last-img" src={r5} alt="r5"/>
+        <img className="sec-last-img" src={r5} alt="r5"/>
+        <img className="sec-last-img" src={r5} alt="r5"/>
+        <img className="sec-last-img" src={r5} alt="r5"/>
+    </div>
 </div>
 
     </>
